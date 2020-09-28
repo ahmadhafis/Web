@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap');
+
+body{
+    font-family:"MuseoModerno", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    }
+    
+nav a:hover{
+    font-weight: bold;
+    }
+    
+.profile header{
+    text-align: center;
+    }
+    
+.featured-image{
+    width: 100%;
+    max-height: 300%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.jumbotron{
+    font-size: 20px;
+    padding: 20px;
+    background-color: maroon;
+    text-align: center;
+    color: #b39a0d;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+nav{
+    background-color: #b39a0d;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+#content{
+    float: left;
+    width: 75%;
+}
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+
+img{
+    float: left;
+    margin: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    aside{
+        width: 100%;
+        padding: 0;
+    
+    }
+}
+
+header{
+    display: inline;
+}
+
+h2,h3{
+    color: #b39a0d;
+}
+
+
+footer{
+    padding: 20px;
+    color: #b39a0d;
+    background-color: maroon;
+    text-align: center;
+    font-weight: bold;
+}
